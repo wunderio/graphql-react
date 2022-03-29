@@ -65,7 +65,7 @@ function fetchOptionsOverride(options) {
 // formatting and linting. The cache system doesn’t require `__typename` or `id`
 // fields to be queried.
 const query = /* GraphQL */ `
-  query($repoId: ID!) {
+  query ($repoId: ID!) {
     repo: node(id: $repoId) {
       ... on Repository {
         stargazers {
