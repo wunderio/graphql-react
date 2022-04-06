@@ -1,6 +1,6 @@
 'use strict';
 
-const ReactDOMServer = require('react-dom/server.node');
+const ReactDOMServer = require('react-dom/server');
 
 const GraphQL = require('../universal/GraphQL');
 
